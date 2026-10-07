@@ -1,0 +1,11 @@
+# Local secrets and environment-specific overrides
+application-local.yml
+application-local.yaml
+*-local.yml
+*-local.yaml
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

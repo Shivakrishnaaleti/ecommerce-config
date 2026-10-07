@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce_order_db
+
+server:
+  port: 8084
+
+services:
+  product:
+    url: http://localhost:8082
+  inventory:
+    url: http://localhost:8083
