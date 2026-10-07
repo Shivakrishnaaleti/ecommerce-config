@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: root
-    password: Shiva@aleti123
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
